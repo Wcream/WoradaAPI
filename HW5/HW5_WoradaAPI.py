@@ -1,6 +1,5 @@
 from flask import Flask
 from flask import jsonify
-#from logging.config import dictConfig
 import logging
 
 app = Flask(__name__)
@@ -20,6 +19,8 @@ def hello_world():
 if __name__ == "__main__":
     app.run(debug=True)
 
+
+#from logging.config import dictConfig
 """dictConfig({
     'version': 1,
     'formatters': {'default': {
